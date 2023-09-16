@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FX Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo"> <span>FX </span>Player </a>
+
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search Movie">
+                <i class='bx bx-search'></i>
+            </div>
+
+            <a href="#" class="user">
+                <img src="user_1.jpeg" alt="">
+            </a>
+
+            <div class="navbar">
+                <a href="index.html" class="nav-link nav-link-active">
+                    <i class='bx bxs-home'></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bxs-hot'></i>
+                    <span class="nav-link-title">Trending</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-compass'></i>
+                    <span class="nav-link-title">Explore</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-tv'></i>
+                    <span class="nav-link-title">Movies</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-heart'></i>
+                    <span class="nav-link-title">Favourite</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="play-container container">
+        <img src="bg_img.jpg" alt="" class="play-img">
+        <div class="play-text">
+            <h2>Godzilla vs. Kong</h2>
+            <div class="rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+
+            <div class="tags">
+                <span>Sci-fi</span>
+                <span>Action</span>
+                <span>4K</span>
+            </div>
+
+            <a href="#" class="watch-btn">
+                <i class='bx bxs-right-arrow'></i>
+                <span>Watch Official Teaser</span>
+            </a>
+        </div>
+        <i class='bx bxs-right-arrow play-movie' id="play-movie"></i>
+        <div class="video-container " id="video-container">
+            <div class="video-box ">
+                <video id="myvideo" src="WebSite_Video.mp4" controls></video>
+                <i class='bx bx-x close-video'></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-movie container">
+        <h2>Godzilla vs Kong</h2>
+        <p>The epic next chapter in the cinematic Monsterverse pits two of the greatest icons in motion picture history against
+        each other--the fearsome Godzilla and the mighty Kong--with humanity caught in the balance.</p>
+        <h2 class="cast-heading">Movie Cast</h2>
+        <div class="cast">
+            <div class="cast-box">
+                <img src="act_1.jpeg" alt="" class="cast-img">
+                <span class="cast-title">Alexander Skarsgård</span>
+            </div>
+            <div class="cast-box">
+                <img src="act_2.jpeg" alt="" class="cast-img">
+                <span class="cast-title">Julian Dennison</span>
+            </div>
+            <div class="cast-box">
+                <img src="act_3.jpeg" alt="" class="cast-img">
+                <span class="cast-title">Rebecca Hall</span>
+            </div>
+            <div class="cast-box">
+                <img src="act_4.jpeg" alt="" class="cast-img">
+                <span class="cast-title">Kaylee Hottle</span>
+            </div>
+            <div class="cast-box">
+                <img src="act_5.jpeg" alt="" class="cast-img">
+                <span class="cast-title">Eiza González</span>
+            </div>
+            <div class="cast-box">
+                <img src="act_7.jpeg" alt="" class="cast-img">
+                <span class="cast-title">Ronny Chieng</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="download">
+        <div class="download-title"> Download Movie</div>
+            <div class="download-links">
+                <a href="WebSite_Video.mp4">480p</a>
+                <a href="WebSite_Video.mp4">720p</a>
+                <a href="WebSite_Video.mp4">1080p</a>
+            </div>
+    </div>
+
+    <div class="copyright">
+        <p>&#169; DeepakAnto All Rights Reserved</p>
+    </div>
+
+    <script src="cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
